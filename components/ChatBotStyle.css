@@ -1,0 +1,97 @@
+.react-chatbot-kit-chat-container {
+    background-color: transparent;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.react-chatbot-kit-chat-message-container {
+    flex: 1;
+    overflow-y: visible;
+    scrollbar-width: thin;
+    background-color: #ffffff;
+}
+
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar-thumb {
+    background: #4caf50;
+    border-radius: 8px;
+}
+
+.react-chatbot-kit-chat-bot-message-container,
+.react-chatbot-kit-chat-user-message-container {
+    display: flex;
+    align-items: center;
+}
+
+.react-chatbot-kit-chat-bot-message,
+.react-chatbot-kit-chat-user-message {
+    background-color: #e1ffc7;
+    color: #333;
+    border-radius: 15px;
+    font-size: 14px;
+    max-width: 70%;
+    word-wrap: break-word;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.react-chatbot-kit-chat-bot-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.react-chatbot-kit-chat-user-message-container {
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.react-chatbot-kit-chat-user-message {
+    background-color: #dcf8c6; 
+    margin-left: auto;
+}
+
+.react-chatbot-kit-chat-input {
+    border: 2px solid #4caf50; 
+    border-radius: 20px; 
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    flex-grow: 1; 
+}
+
+.react-chatbot-kit-chat-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.react-chatbot-kit-chat-btn:hover {
+    background-color: #45a049;
+}
+
+/* Input container */
+.react-chatbot-kit-chat-input-container {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd; 
+    outline: none;
+    padding: 10px;
+}
